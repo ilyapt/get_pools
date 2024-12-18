@@ -1,0 +1,12 @@
+MainNet:
+  Rpc: https://eth.llamarpc.com
+  LogLen: 10_000
+  Sources:
+    ETH_TRICRYPTO_NG:
+      Factory: 0x0c0e5f2ff0ff18a3be9b835635039256dc4b4963
+      Topics: [[ 0xa307f5d0802489baddec443058a63ce115756de9020e2b07d3e2cd2f21269e2a ]]
+      FromBlock: 17371439
+    ETH_UNISWAP_V3:
+      Factory: 0x1F98431c8aD98523631AE4a59f267346ea31F984
+      Topics: [[ 0x783cca1c0412dd0d695e784568c96da2e9c22ff989357a2e8b1d9b2b4e6b7118 ]]
+      FromBlock: 12369621
